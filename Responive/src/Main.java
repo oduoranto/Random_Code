@@ -1,7 +1,6 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-
 public class Main {
     public static void main(String[] args) {
 
@@ -33,8 +32,10 @@ while(true) {
     public static String town(){
         Scanner sc1 = new Scanner(System.in);
         System.out.println("AI: What's your town? ");
+        
         System.out.print("Me: ");
         String town = sc1.nextLine();
+        
         return town;
     }
     public static String hobby(){
