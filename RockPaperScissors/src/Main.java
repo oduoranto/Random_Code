@@ -8,8 +8,10 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         Random rand = new Random();
+        
         int random = rand.nextInt(1,3);
         System.out.println(random);
+        
         // opens the game depending on your choice
         //if you select @1 it continues to play
         //If you selct @2 you exit the game
@@ -22,18 +24,14 @@ public class Main {
 
            String name = name();
 
-
-                System.out.println(">1.Rock >> 2. Paper >>> 3. Scissors ");
-                int choice2 = sc.nextInt();
+             System.out.println(">1.Rock >> 2. Paper >>> 3. Scissors ");
+             int choice2 = sc.nextInt();
             System.out.println(  response(random, choice2, name));
-
-
         } else {
             System.out.println("Exiting...");
         }
 
-
-    }
+  }
     public static String name(){
         Scanner sc1 = new Scanner(System.in);
         System.out.print("Enter your name: ");
@@ -51,8 +49,6 @@ public class Main {
         else{
             return ">>" + name + " Wins!<<";
         }
-
-
-    }
+ }
 }
 
