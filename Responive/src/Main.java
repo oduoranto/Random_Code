@@ -7,14 +7,11 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-
-
 while(true) {
 
     System.out.println("AI: Hello, what's your name? ");
     System.out.print("Me: ");
     String name = sc.nextLine();
-
 
     System.out.println("AI: How old are you? ");
     System.out.print("Me: ");
@@ -31,8 +28,6 @@ while(true) {
     System.out.println("************************************************************************");
 
        }
-
-
  }
 
     public static String town(){
